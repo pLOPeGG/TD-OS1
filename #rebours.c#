@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+
+int main(int argc, char** argv)
+{
+    printf("Bonjour je suis '%s'\n",argv[0]);
+    int pid =getpid();
+    int nb = atoi(argv[1]);
+    assert(nb>0);
+    for(int
+    return 0;
+}
